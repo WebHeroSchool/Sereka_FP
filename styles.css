@@ -1,37 +1,69 @@
 body {
-    height: 100vh;
-    margin: auto;
-}
+    width: 100%;
+    max-width: 1440px;
+    min-width: 320px;
+    padding: 0;
+    margin: 0 auto;
+  }
 
-.wrapper {
-    margin: auto;
-    width: 82%;
-}
+  .menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 28px 0;
+    border-top: 3px solid #309;
+    border-bottom: 3px solid #309;
+  }  
 
 .menu__item {
-    font-family: Gilroy;
-    font-size: 20px;
-    line-height: 25px;
+    font: 800 20px/24px Gilroy, Roboto, arial, helvetica, sans-serif;
+    color: #585858;
     text-decoration: none;
+    padding: 3px 44px 0 0;
 }
 
-.call__item {
-    font-family: montserratbold;
-    font-size: 20px;
-    line-height: 24px;
-    font-weight: 800;
+.menu__item-call {
+    font: 800 20px/24px montserratbold, arial, helvetica, sans-serif;
+    padding: 15px 30px 12px 31px;
+    background: #309;
     text-decoration: none;
+    color: #fff;
+    border-radius: 50px;
+    margin:1px 9% 0 0;
+  }
+
+  .menu__item:hover {
+    font: 800 20px/24px 'Montserrat', arial, helvetica, sans-serif;
+    padding: 13px 30px 13px 30px;
+    background: #309;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 50px;
+  }
+
+.logo {
+    background: no-repeat url(img/logo.jpg);
+    margin: 0 0 90px 0;
 }
 
 .logo__title {
-    font-family: Montserrat;
-    font-size: 40px;
-    line-height: 49px;
-    font-weight: 900;
+    display: block;
+    font: 900 40px/49px montserratblack, arial, helvetica, sans-serif;
+    color: #309;
+    padding: 150px 0 0 53%;
+    width: 38%;
+    text-align: right;
+    margin: 0 0 10px 0;
 }
 
 .logo__subtitle {
-    font-family: Montserrat;
+    display: block;
+    width: 30%;
+    padding: 0 5px 152px 60.9%;
+    margin: 0px;
+    font: 700 30px/36px montserratbold, arial, helvetica, sans-serif;
+    text-align: right;
+    color: #fff;
 }
 
 .advantages__title {
