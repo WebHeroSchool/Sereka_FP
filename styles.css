@@ -1,13 +1,33 @@
+body {
+    height: 100vh;
+    margin: auto;
+}
+
+.wrapper {
+    margin: auto;
+    width: 82%;
+}
+
 .menu__item {
     font-family: Gilroy;
+    font-size: 20px;
+    line-height: 25px;
+    text-decoration: none;
 }
 
 .call__item {
-    font-family: Montserrat;
+    font-family: montserratbold;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 800;
+    text-decoration: none;
 }
 
 .logo__title {
     font-family: Montserrat;
+    font-size: 40px;
+    line-height: 49px;
+    font-weight: 900;
 }
 
 .logo__subtitle {

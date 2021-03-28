@@ -6,8 +6,8 @@
 }
 
 @font-face {
-  font-family: 'Gilroy-ExtraBold';
-  src: url('fonts/Gilroy-ExtraBold.woff') format('woff');
+  font-family: 'montserratbold';
+  src: url('fonts/montserrat-bold-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
