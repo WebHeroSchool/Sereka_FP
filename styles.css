@@ -158,3 +158,67 @@ body {
     font-family: Roboto;
 }
 
+@media (max-width: 1150px) {
+    .logo__title {
+      padding: 121px 0 0 51%;
+      width: 45%;
+      margin: 0 0 10px 0;
+      text-align: left;
+    }
+  
+    .logo__subtitle {
+      width: 40%;
+      padding: 0 5px 133px 49.5%;
+      text-align: right;
+    }
+}
+
+@media (max-width: 969px) {
+    .logo__title {
+      padding: 121px 0 0 45%;
+      width: 50%;
+      margin: 0 0 10px 0;
+      text-align: left;
+    }
+  
+    .logo__subtitle {
+      width: 40%;
+      padding: 0 5px 133px 49.5%;
+      text-align: right;
+    }
+}
+
+@media (max-width: 875px) {
+    .logo__title {
+      padding: 69px 0 9px 36%;
+      width: 53%;
+      margin: 0 0 10px 0;
+      text-align: left;
+    }
+  
+    .logo__subtitle {
+      width: 40%;
+      padding: 0 5px 133px 49.5%;
+      text-align: right;
+    }
+}
+
+@media (max-width: 666px) {
+    .logo__title {
+      display: block;
+      font: 900 20px/24px montserratblack, arial, helvetica, sans-serif;
+      padding: 13vw 0 6vw 53%;
+      width: 40%;
+      margin: 0;
+      text-align: right;
+    }
+  
+    .logo__subtitle {
+      display: block;
+      width: 37%;
+      padding: 0 0 14vw 56%;
+      font: 700 16px/20px montserratbold, arial, helvetica, sans-serif;
+      text-align: right;
+      color: #fff;
+    }
+}
