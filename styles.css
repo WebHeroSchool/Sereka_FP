@@ -23,13 +23,13 @@ body {
 }
 
 .menu__item-call {
-    font: 800 20px/24px montserratbold, arial, helvetica, sans-serif;
-    padding: 15px 30px 12px 31px;
+    font: 800 20px/24px Montserrat, arial, helvetica, sans-serif;
+    padding: 13px 30px 13px 31px;
     background: #309;
     text-decoration: none;
     color: #fff;
     border-radius: 50px;
-    margin:1px 9% 0 0;
+    margin:2px 9% 0 0;
   }
 
   .menu__item:hover {
@@ -43,12 +43,11 @@ body {
 
 .logo {
     background: no-repeat url(img/logo.jpg);
-    margin: 0 0 90px 0;
 }
 
 .logo__title {
     display: block;
-    font: 900 40px/49px montserratblack, arial, helvetica, sans-serif;
+    font: 900 40px/49px Montserrat, arial, helvetica, sans-serif;
     color: #309;
     padding: 150px 0 0 53%;
     width: 38%;
@@ -60,70 +59,191 @@ body {
     display: block;
     width: 30%;
     padding: 0 5px 152px 60.9%;
-    margin: 0px;
-    font: 700 30px/36px montserratbold, arial, helvetica, sans-serif;
+    font: 700 30px/36px Montserrat, arial, helvetica, sans-serif;
     text-align: right;
     color: #fff;
 }
 
+.main {
+    margin-bottom: 12.5vw;
+}
+
+.advantages {
+    background-color: #F9F9F9;
+    padding-bottom: 6%;
+}
+
 .advantages__title {
-    font-family: Montserrat;
+    font: 900 30px/37px 'Montserrat', arial, helvetica, sans-serif;
+    text-align: center;
+    color: #585858;
+    padding-top: 89px;
+    margin: 0 0 50px 0;  
+}
+
+.advantages-column {
+    display: flex;
+    width: 83%;
+    margin: 0 auto;
+    margin-bottom: 6.7vw;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.advantages__individ {
+    text-align: center;
+    width: 28%;
+    margin-right: 2%;
+}
+
+.advantages__prices {
+    text-align: center;
+    width: 33%;
+}
+
+.advantages__result {
+    text-align: center;
+    width: 30%;
 }
 
 .individ__title {
-    font-family: Montserrat;
+    font: 900 30px/37px 'Montserrat', arial, helvetica, sans-serif;
+    margin-bottom: 10px;
 }
 
 .individ__subtitle {
-    font-family: Montserrat; 
+    font: 500 20px/24px 'Montserrat', arial, helvetica, sans-serif;
+    width: 95%;
+    padding-right: 4px;
+    margin: 0 auto;
+    text-align: center; 
+}
+
+.prices__img {
+    padding-right: 7px;
 }
 
 .prices__title {
-    font-family: Montserrat;
+    font: 900 30px/37px 'Montserrat', arial, helvetica, sans-serif;
 }
 
 .prices__subtitle {
-    font-family: Montserrat;
+    font: 500 20px/24px 'Montserrat', arial, helvetica, sans-serif;
+    width: 95%;
+    padding-top: 2px;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .result__title {
-    font-family: Montserrat;
+    font: 900 30px/37px 'Montserrat', arial, helvetica, sans-serif;
+    margin-bottom: 10px;
 }
 
 .result__subtitle {
-    font-family: Montserrat;
+    font: 500 20px/24px 'Montserrat', arial, helvetica, sans-serif;
+    width: 95%;
+    padding-right: 4px;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .advantages__btn {
-    font-family: Montserrat;
+    font: 800 20px/24px 'Montserrat', arial, helvetica, sans-serif;
+    text-decoration: none;
+    color: #ffda45;
+    padding: 20px 37px 21px;
+    background: #309;
+    border-radius: 50px;
+    display: block;
+    margin: 0 auto;
+    width: 272px;
+}
+
+.skills {
+    width: 82%;
+    margin: 0 auto;
+    margin-bottom: 60px;
 }
 
 .skills__title {
-    font-family: Montserrat;
+    font: 900 30px/37px 'Montserrat', arial, helvetica, sans-serif;
+    color: #585858;
+    display: flex;
+    justify-content: center;
+    padding-top: 68px;
+    margin-bottom: 50px;
+}
+
+.skill__one {
+    width: 49%;
+    padding: 0 0 0 17%;
+    background: no-repeat url(img/img\ 1.png);
+    margin-bottom: 67px;
 }
 
 .one__title {
-    font-family: Montserrat;
+    display: inline-block;
+    font: 600 30px/37px 'Montserrat', arial, helvetica, sans-serif;
+    color: #585858;
+    margin-top: 3px;
+    margin-bottom: 8px;
 }
 
 .one__subtitle {
-    font-family: Montserrat;
+    font: 500 20px/24px 'Montserrat', arial, helvetica, sans-serif;
+    color: #585858;
+    display: block;
+    padding-bottom: 15px;
+    margin-top: 0;
+    width: 80%;
+}
+
+.skill__two {
+    width: 49%;
+    padding: 0 17% 0 0;
+    background: no-repeat right 10% url(img/img\ 2.png);
+    margin-left: 34%;
+    margin-bottom: 50px;
+    text-align: right;
 }
 
 .two__title {
-    font-family: Montserrat; 
+    display: inline-block;
+    font: 600 30px/37px 'Montserrat', arial, helvetica, sans-serif;
+    color: #585858;
+    padding: 26px 0 8px 0;
+    margin: 0; 
 }
 
 .two__subtitle {
-    font-family: Montserrat; 
+    font: 500 20px/24px 'Montserrat', arial, helvetica, sans-serif;
+    color: #585858;
+    display: block;
+    padding-bottom: 47px;
+    margin: 0;
+}
+
+.skill__three {
+    width: 49%;
+    padding: 0 0 0 17%;
+    background: no-repeat left 10% url(img/img\ 3.png);
 }
 
 .three__title {
-    font-family: Montserrat; 
+    display: inline-block;
+    font: 600 30px/37px 'Montserrat', arial, helvetica, sans-serif;
+    color: #585858;
+    padding: 15px 0 8px 0;
+    margin: 0;
 }
 
 .three__subtitle {
-    font-family: Montserrat; 
+    font: 500 20px/24px 'Montserrat', arial, helvetica, sans-serif;
+    color: #585858;
+    display: block;
+    padding-bottom: 45px;
+    margin: 0;
 }
 
 .form__title {
