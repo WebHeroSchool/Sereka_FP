@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="fonts.css">
   <link rel="stylesheet" href="styles.css">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800;900&amp;display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&amp;display=swap" rel="stylesheet">
   <title>Document</title>
 </head>
 <body>
@@ -15,6 +16,16 @@
         <a class="menu__item" href="">Мои навыки</a>
         <a class="menu__item" href="">Оставить заявку</a>
         <a class="menu__item-call" href="">Позвонить</a>
+        <div class="hamburger-menu">
+          <input id="menu__toggle" type="checkbox">
+          <label class="menu__btn" for="menu__toggle">
+            <span></span>
+          </label>
+          <ul class="menu__box">
+            <li><a class="menu__items" href="#">Мои навыки</a></li>
+            <li><a class="menu__items" href="#">Оставить заявку</a></li>
+          </ul>
+        </div>
       </nav>
       <div class="logo">
         <span class="logo__title">Разработка сайтов, игр и приложений</span>
@@ -37,8 +48,9 @@
           </div>
           <div class="advantages__result">
             <img class="result__img" src="img/icon 3.png" alt="">
-            <h2 class="result__title">Отличный результат!</h2>
+            <h2 class="result__title">Отличный<br> результат!</h2>
             <p class="result__subtitle">Я внимательно работаю <br> над каждым проектом. <br> Я очень люблю свою работу, <br> поэтому вас обрадует результат <br> проделанной работы.</p>
+            <p class="result__subtitle-mobile">Я внимательно <br> работаю над каждым <br> проектом. Я очень люблю <br> свою работу, поэтому <br> вас обрадует результат <br> проделанной работы.</p>
           </div>
         </div>
         <a class="advantages__btn" href="">Получить консультацию</a>
@@ -46,8 +58,9 @@
       <section class="skills">
         <h2 class="skills__title">Что я могу</h2>
         <div class="skill__one">
-          <p class="one__title">Я умею писать валидный <br> и семмантически верный код <br> для вашего сайта или приложения</p>
+          <p class="one__title">Я умею писать валидный <br> и семмантически верный код для&nbsp; вашего сайта или&nbsp;приложения</p>
           <p class="one__subtitle">Ваш сайт и приложение будут <br> верно работать, благодаря моей верстке</p>
+          <p class="one__subtitle-mobile">Ваш сайт и приложение будут верно&nbsp;работать, благодаря моей<br>верстке</p>
         </div>
         <div class="skill__two">
           <p class="two__title">Я умею создавать игры <br> и анимации с помощью JavaScript</p>
@@ -58,22 +71,27 @@
           <p class="three__subtitle">Благодаря моим навыкам, ваш сайт <br> и приложение будут максимально <br> удобными в использовании</p>
         </div>
       </section>
-      <section class="main__form">
-        <h2 class="form__title">Есть вопросы?</h2>
-        <img class="form__img" src="img/img 4.png" alt="">
-        <p class="form__subtitle">Заполните, пожалуйста, эту форму и я обязательно свяжусь с вами</p>
-        <a class="form__one" href="">Имя и фамилия</a>
-        <a class="form__two" href="">Номер телефона</a>
-        <a class="form__three" href="">e-mail</a>
-        <a class="form__btn" href="">Отправить</a>
-      </section>
+      <div class="wrapper-form">
+        <section class="main__form">
+          <h2 class="form__title">Есть вопросы?</h2>
+          <p class="form__subtitle">Заполните, пожалуйста, эту форму и я обязательно свяжусь с вами</p>
+          <form class="">
+            <input class="form__input form__one" type="text" placeholder="Имя и фамилия">
+            <input class="form__input form__two" type="text" placeholder="Номер телефона">
+            <input class="form__input form__three" type="text" placeholder="e-mail">
+            <a class="form__btn" href="">Отправить</a>
+          </form>
+        </section>
+      </div>
     </main>
     <footer class="footer">
-      <p class="footer__title">Меня можно найти в социальных сетях:</p>
-      <img class="in__img" src="img/linkedin.png" alt="">
-      <img class="instagram__img" src="img/instagram.png" alt="">
-      <img class="facebook__img" src="img/facebook.png" alt="">
-      <p class="footer__subtitle">2020  © WebHero School</p>
+      <p class="footer__title">Меня можно найти&nbsp;в&nbsp;социальных&nbsp;сетях:</p>
+      <div class="form-logo">
+        <img class="img__logo" src="img/linkedin.png" alt="">
+        <img class="img__logo" src="img/instagram.png" alt="">
+        <img class="img__logo" src="img/facebook.png" alt="">
+      </div>
+      <p class="footer__subtitle">2020 © WebHero School</p>
     </footer>  
 </body>
 </html>
