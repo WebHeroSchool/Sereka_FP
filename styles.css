@@ -470,7 +470,7 @@ form {
   }
 
   form {
-      padding-left: 0;
+    padding-left: 0;
   }
 }
 
@@ -520,7 +520,7 @@ form {
     margin: 0;
     text-align: right;
   }
-  
+
   .logo__subtitle {
     display: block;
     width: 37%;
@@ -587,7 +587,7 @@ form {
     font: 500 16px/20px 'Montserrat', arial, helvetica, sans-serif;
     width: 100%;
     margin: 0 auto;
-    text-align: center;  
+    text-align: center;
   }
 
   .advantages__result {
