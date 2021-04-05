@@ -17,7 +17,7 @@ body {
   padding: 28px 0;
   border-top: 3px solid #309;
   border-bottom: 3px solid #309;
-}  
+}
 
 .menu__item {
   font: 800 20px/24px Gilroy, Roboto, arial, helvetica, sans-serif;
@@ -70,7 +70,7 @@ body {
 }
 
 .advantages {
-  background-color: #F9F9F9;
+  background-color: #f9f9f9;
   padding-bottom: 6%;
 }
 
@@ -79,7 +79,7 @@ body {
   text-align: center;
   color: #585858;
   padding-top: 89px;
-  margin: 0 0 50px 0;  
+  margin: 0 0 50px 0;
 }
 
 .advantages-column {
@@ -119,7 +119,7 @@ body {
   width: 95%;
   padding-right: 4px;
   margin: 0 auto;
-  text-align: center; 
+  text-align: center;
 }
 
 .prices__img {
@@ -230,7 +230,7 @@ body {
   color: #585858;
   white-space: pre;
   padding: 26px 0 8px 0;
-  margin: 0; 
+  margin: 0;
 }
 
 .two__subtitle {
@@ -305,7 +305,7 @@ form {
   font: 600 15px/18px 'Montserrat', arial, helvetica, sans-serif;
   padding: 24px 45px 22px 39px;
   margin-bottom: 26px;
-  border: none; 
+  border: none;
 }
 
 .form__two {
@@ -392,7 +392,7 @@ form {
     margin: 0 0 10px 0;
     text-align: left;
   }
-  
+
   .logo__subtitle {
     width: 40%;
     padding: 0 4px 133px 49.5%;
@@ -425,7 +425,6 @@ form {
 }
 
 @media (max-width: 969px) {
-
   .individ__title,
   .prices__title,
   .result__title {
@@ -447,7 +446,6 @@ form {
 }
 
 @media (max-width: 875px) {
-
   .logo {
     margin: 0 0 50px 0;
   }
@@ -458,7 +456,7 @@ form {
     margin: 0 0 10px 0;
     text-align: left;
   }
-  
+
   .logo__subtitle {
     width: 40%;
     padding: 0 5px 133px 49.5%;
@@ -562,7 +560,7 @@ form {
     font: 900 16px/20px 'Montserrat', arial, helvetica, sans-serif;
     width: 90%;
     margin: 0 auto;
-    margin-bottom: 4px;  
+    margin-bottom: 4px;
   }
 
   .individ__subtitle {
@@ -596,14 +594,14 @@ form {
   .advantages__result {
     text-align: center;
     width: 100%;
-    padding-top: 93px;  
+    padding-top: 93px;
   }
 
   .result__title {
     font: 900 16px/20px 'Montserrat', arial, helvetica, sans-serif;
     width: 90%;
     margin: 0 auto;
-    margin-bottom: 0;  
+    margin-bottom: 0;
   }
 
   .result__subtitle {
@@ -611,7 +609,7 @@ form {
     font: 500 16px/21px 'Montserrat', arial, helvetica, sans-serif;
     width: 70%;
     margin: 0 auto;
-    text-align: center;  
+    text-align: center;
   }
 
   .advantages__btn {
@@ -624,17 +622,17 @@ form {
     padding: 17px 21px;
     background: #309;
     border-radius: 50px;
-    margin: 0 auto;  
+    margin: 0 auto;
   }
 
   .skills {
     width: 82%;
     margin: 0 auto;
-    margin-bottom: 9.5vw;  
+    margin-bottom: 9.5vw;
   }
 
   .one__subtitle {
-    display: none;  
+    display: none;
   }
 
   .one__subtitle-mobile {
@@ -653,7 +651,7 @@ form {
     color: #585858;
     display: flex;
     justify-content: center;
-    margin-bottom: 11vw;  
+    margin-bottom: 11vw;
   }
 
   .skill__one {
@@ -661,7 +659,7 @@ form {
     padding: 0;
     background: no-repeat center top url(img/img\ 1.png);
     margin: 0 auto;
-    margin-bottom: 0;  
+    margin-bottom: 0;
   }
 
   .one__title {
@@ -669,7 +667,7 @@ form {
     font: 600 16px/20px 'Montserrat', arial, helvetica, sans-serif;
     color: #585858;
     padding: 41vw 0 10px 0;
-    text-align: center;  
+    text-align: center;
   }
 
   .skill__two,
@@ -685,7 +683,7 @@ form {
     width: 85%;
     margin: 0 auto;
     background: no-repeat center 16% url(img/img\ 4.png);
-    padding-bottom: 14vw;  
+    padding-bottom: 14vw;
   }
 
   .form__title {
@@ -708,7 +706,7 @@ form {
   form {
     padding-left: 0;
     width: 50%;
-    margin: 0 auto;  
+    margin: 0 auto;
   }
 
   .form__input {
@@ -734,7 +732,7 @@ form {
   }
 
   .footer {
-    background: #309;  
+    background: #309;
   }
 
   .footer__title {
@@ -746,7 +744,7 @@ form {
     margin: 0 auto;
     margin-bottom: 4.5vw;
     width: 30%;
-    text-align: center;  
+    text-align: center;
   }
 
   .form-logo {
@@ -754,12 +752,12 @@ form {
     justify-content: space-between;
     width: 50%;
     margin: 0 auto;
-    margin-bottom: 7.8vw;  
+    margin-bottom: 7.8vw;
   }
 
   .img__logo {
     width: 35px;
-    height: 35px;  
+    height: 35px;
   }
 
   .footer__subtitle {
@@ -767,12 +765,11 @@ form {
     color: #fff;
     display: flex;
     justify-content: center;
-    padding-bottom: 10vw;  
+    padding-bottom: 10vw;
   }
 }
 
 @media (max-width: 500px) {
-
   .menu__item {
     padding: 3px 25px 0 0;
   }
@@ -790,7 +787,7 @@ form {
 
   .logo {
     background: no-repeat url(img/logo.jpg);
-    margin: 0;   
+    margin: 0;
   }
 
   .menu {
@@ -805,11 +802,11 @@ form {
     text-decoration: none;
     color: #fff;
     border-radius: 50px;
-    margin: 5px 45px 0 0;  
+    margin: 5px 45px 0 0;
   }
 
   .hamburger-menu {
-    display: inline-block;  
+    display: inline-block;
   }
 
   #menu__toggle {
@@ -825,7 +822,7 @@ form {
     width: 23px;
     height: 16px;
     cursor: pointer;
-    z-index: 1;  
+    z-index: 1;
   }
 
   .menu__btn > span,
@@ -1389,6 +1386,4 @@ form {
   .form-logo {
     margin-bottom: 47px;
   }
-
-
 }
