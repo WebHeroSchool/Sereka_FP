@@ -6,8 +6,15 @@
 }
 
 @font-face {
-  font-family: 'Gilroy-ExtraBold';
-  src: url('fonts/Gilroy-ExtraBold.woff') format('woff');
+  font-family: 'Montserrat';
+  src: url('fonts/Montserrat-ExtraBold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('fonts/Montserrat-Black.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
