@@ -33,7 +33,7 @@ body {
   text-decoration: none;
   color: #fff;
   border-radius: 50px;
-  margin:2px 9% 0 0;
+  margin: 2px 9% 0 0;
 }
 
 .menu__item:hover {
@@ -284,7 +284,7 @@ body {
 
 .form__img {
   width: 175px;
-  height: 175px;;
+  height: 175px;
 }
 
 .form__subtitle {
@@ -292,7 +292,7 @@ body {
   color: #585858;
   text-align: center;
   padding: 49px 0 38px 0;
-  margin: 0; 
+  margin: 0;
 }
 
 form {
@@ -314,7 +314,7 @@ form {
   font: 600 15px/18px 'Montserrat', arial, helvetica, sans-serif;
   padding: 24px 45px 22px 39px;
   margin-bottom: 26px;
-  border: none; 
+  border: none;
 }
 
 .form__three {
@@ -430,14 +430,14 @@ form {
   .result__title {
     font: 900 25px/37px 'Montserrat', arial, helvetica, sans-serif;
   }
-    
+
   .logo__title {
     padding: 121px 0 0 45%;
     width: 50%;
     margin: 0 0 10px 0;
     text-align: left;
   }
-  
+
   .logo__subtitle {
     width: 40%;
     padding: 0 5px 133px 49.5%;
@@ -471,11 +471,10 @@ form {
 
   form {
       padding-left: 0;
-  } 
+  }
 }
 
 @media (max-width: 666px) {
-
   .logo {
     background: no-repeat url(img/logo.jpg);
     margin: 0;
@@ -567,21 +566,21 @@ form {
     font: 500 16px/20px 'Montserrat', arial, helvetica, sans-serif;
     width: 100%;
     margin: 0 auto;
-    text-align: center;  
+    text-align: center;
   }
 
   .advantages__prices {
     margin: 0 auto;
     text-align: center;
     padding-top: 95px;
-    width: 90%;  
+    width: 90%;
   }
 
   .prices__title {
     font: 900 16px/20px 'Montserrat', arial, helvetica, sans-serif;
     width: 90%;
     margin: 0 auto;
-    margin-bottom: 4px;  
+    margin-bottom: 4px;
   }
 
   .prices__subtitle {
