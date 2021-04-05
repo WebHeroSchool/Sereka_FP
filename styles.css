@@ -1,148 +1,150 @@
 body {
-    width: 100%;
-    max-width: 1440px;
-    min-width: 320px;
-    padding: 0;
-    margin: 0 auto;
-  }
+  width: 100%;
+  max-width: 1440px;
+  min-width: 320px;
+  padding: 0;
+  margin: 0 auto;
+}
 
-  .hamburger-menu {
-      display: none;
-  }
+.hamburger-menu {
+  display: none;
+}
 
-  .menu {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    padding: 28px 0;
-    border-top: 3px solid #309;
-    border-bottom: 3px solid #309;
-  }  
+.menu {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 28px 0;
+  border-top: 3px solid #309;
+  border-bottom: 3px solid #309;
+}  
 
 .menu__item {
-    font: 800 20px/24px Gilroy, Roboto, arial, helvetica, sans-serif;
-    color: #585858;
-    text-decoration: none;
-    padding: 3px 44px 0 0;
+  font: 800 20px/24px Gilroy, Roboto, arial, helvetica, sans-serif;
+  color: #585858;
+  text-decoration: none;
+  padding: 3px 43px 0 0;
 }
 
 .menu__item-call {
-    font: 800 20px/24px 'Montserrat', arial, helvetica, sans-serif;
-    padding: 13px 30px 13px 31px;
-    background: #309;
-    text-decoration: none;
-    color: #fff;
-    border-radius: 50px;
-    margin:2px 9% 0 0;
-  }
+  font: 800 20px/24px 'Montserrat', arial, helvetica, sans-serif;
+  padding: 13px 32px 13px 30px;
+  background: #309;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 50px;
+  margin:2px 9% 0 0;
+}
 
-  .menu__item:hover {
-    font: 800 20px/24px 'Montserrat', arial, helvetica, sans-serif;
-    padding: 13px 30px 13px 30px;
-    background: #309;
-    text-decoration: none;
-    color: #fff;
-    border-radius: 50px;
-  }
+.menu__item:hover {
+  font: 800 20px/24px 'Montserrat', arial, helvetica, sans-serif;
+  padding: 13px 30px 13px 30px;
+  background: #309;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 50px;
+}
 
 .logo {
-    background: no-repeat url(img/logo.jpg);
+  background: no-repeat url(img/logo.jpg);
 }
 
 .logo__title {
-    display: block;
-    font: 900 40px/49px 'Montserrat', arial, helvetica, sans-serif;
-    color: #309;
-    padding: 150px 0 0 53%;
-    width: 38%;
-    text-align: right;
-    margin: 0 0 10px 0;
+  display: block;
+  font: 900 40px/49px 'Montserrat', arial, helvetica, sans-serif;
+  color: #309;
+  padding: 150px 0 0 53%;
+  width: 38%;
+  text-align: right;
+  margin: 0 0 10px 0;
 }
 
 .logo__subtitle {
-    display: block;
-    width: 30%;
-    padding: 0 5px 152px 60.9%;
-    font: 700 30px/36px Montserrat, arial, helvetica, sans-serif;
-    text-align: right;
-    color: #fff;
+  display: block;
+  width: 30%;
+  padding: 0 5px 152px 60.9%;
+  font: 700 30px/36px Montserrat, arial, helvetica, sans-serif;
+  white-space: pre-wrap;
+  text-align: right;
+  color: #fff;
 }
 
 .advantages {
-    background-color: #F9F9F9;
-    padding-bottom: 6%;
+  background-color: #F9F9F9;
+  padding-bottom: 6%;
 }
 
 .advantages__title {
-    font: 900 30px/37px 'Montserrat', arial, helvetica, sans-serif;
-    text-align: center;
-    color: #585858;
-    padding-top: 89px;
-    margin: 0 0 50px 0;  
+  font: 900 30px/37px 'Montserrat', arial, helvetica, sans-serif;
+  text-align: center;
+  color: #585858;
+  padding-top: 89px;
+  margin: 0 0 50px 0;  
 }
 
 .advantages-column {
-    display: flex;
-    width: 83%;
-    margin: 0 auto;
-    margin-bottom: 6.7vw;
-    flex-wrap: nowrap;
-    justify-content: space-between;
+  display: flex;
+  width: 83%;
+  margin: 0 auto;
+  margin-bottom: 6.7vw;
+  flex-wrap: nowrap;
+  justify-content: space-between;
 }
 
 .advantages__individ {
-    text-align: center;
-    width: 28%;
-    margin-right: 2%;
+  text-align: center;
+  width: 28%;
+  margin-right: 2%;
 }
 
 .advantages__prices {
-    text-align: center;
-    width: 33%;
+  text-align: center;
+  width: 33%;
 }
 
 .advantages__result {
-    text-align: center;
-    width: 30%;
+  text-align: center;
+  width: 30%;
 }
 
 .individ__title {
-    font: 900 30px/37px 'Montserrat', arial, helvetica, sans-serif;
-    color: #585858;
-    margin-bottom: 10px;
+  font: 900 30px/37px 'Montserrat', arial, helvetica, sans-serif;
+  color: #585858;
+  margin-bottom: 10px;
 }
 
 .individ__subtitle {
-    font: 500 20px/24px 'Montserrat', arial, helvetica, sans-serif;
-    color: #585858;
-    width: 95%;
-    padding-right: 4px;
-    margin: 0 auto;
-    text-align: center; 
+  font: 500 20px/24px 'Montserrat', arial, helvetica, sans-serif;
+  color: #585858;
+  width: 95%;
+  padding-right: 4px;
+  margin: 0 auto;
+  text-align: center; 
 }
 
 .prices__img {
-    padding-right: 7px;
+  padding-right: 7px;
 }
 
 .prices__title {
-    font: 900 30px/37px 'Montserrat', arial, helvetica, sans-serif;
-    color: #585858;
+  font: 900 30px/37px 'Montserrat', arial, helvetica, sans-serif;
+  color: #585858;
+  text-indent: -10px;
 }
 
 .prices__subtitle {
-    font: 500 20px/24px 'Montserrat', arial, helvetica, sans-serif;
-    color: #585858;
-    width: 95%;
-    padding-top: 2px;
-    margin: 0 auto;
-    text-align: center;
+  font: 500 20px/24px 'Montserrat', arial, helvetica, sans-serif;
+  color: #585858;
+  width: 95%;
+  padding-top: 2px;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .result__title {
-    font: 900 30px/37px 'Montserrat', arial, helvetica, sans-serif;
-    color: #585858;
-    margin-bottom: 10px;
+  font: 900 30px/37px 'Montserrat', arial, helvetica, sans-serif;
+  color: #585858;
+  margin-bottom: 10px;
 }
 
 .result__subtitle-mobile {
@@ -150,63 +152,63 @@ body {
 }
 
 .result__subtitle {
-    font: 500 20px/24px 'Montserrat', arial, helvetica, sans-serif;
-    color: #585858;
-    width: 95%;
-    padding-right: 4px;
-    margin: 0 auto;
-    text-align: center;
+  font: 500 20px/24px 'Montserrat', arial, helvetica, sans-serif;
+  color: #585858;
+  width: 95%;
+  padding-right: 4px;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .advantages__btn {
-    font: 800 20px/24px 'Montserrat', arial, helvetica, sans-serif;
-    text-decoration: none;
-    color: #ffda45;
-    padding: 20px 37px 21px;
-    background: #309;
-    border-radius: 50px;
-    display: block;
-    margin: 0 auto;
-    width: 272px;
+  font: 800 20px/24px 'Montserrat', arial, helvetica, sans-serif;
+  text-decoration: none;
+  color: #ffda45;
+  padding: 20px 37px 21px;
+  background: #309;
+  border-radius: 50px;
+  display: block;
+  margin: 0 auto;
+  width: 272px;
 }
 
 .skills {
-    width: 82%;
-    margin: 0 auto;
-    margin-bottom: 60px;
+  width: 82%;
+  margin: 0 auto;
+  margin-bottom: 60px;
 }
 
 .skills__title {
-    font: 900 30px/37px 'Montserrat', arial, helvetica, sans-serif;
-    color: #585858;
-    display: flex;
-    justify-content: center;
-    padding-top: 68px;
-    margin-bottom: 50px;
+  font: 900 30px/37px 'Montserrat', arial, helvetica, sans-serif;
+  color: #585858;
+  display: flex;
+  justify-content: center;
+  padding-top: 68px;
+  margin-bottom: 50px;
 }
 
 .skill__one {
-    width: 49%;
-    padding: 0 0 0 17%;
-    background: no-repeat url(img/img\ 1.png);
-    margin-bottom: 67px;
+  width: 49%;
+  padding: 0 0 0 17%;
+  background: no-repeat url(img/img\ 1.png);
+  margin-bottom: 67px;
 }
 
 .one__title {
-    display: inline-block;
-    font: 600 30px/37px 'Montserrat', arial, helvetica, sans-serif;
-    color: #585858;
-    margin-top: 3px;
-    margin-bottom: 8px;
+  display: inline-block;
+  font: 600 30px/37px 'Montserrat', arial, helvetica, sans-serif;
+  color: #585858;
+  margin-top: 3px;
+  margin-bottom: 8px;
 }
 
 .one__subtitle {
-    font: 500 20px/24px 'Montserrat', arial, helvetica, sans-serif;
-    color: #585858;
-    display: block;
-    padding-bottom: 15px;
-    margin-top: 0;
-    width: 80%;
+  font: 500 20px/24px 'Montserrat', arial, helvetica, sans-serif;
+  color: #585858;
+  display: block;
+  padding-bottom: 15px;
+  margin-top: 0;
+  width: 80%;
 }
 
 .one__subtitle-mobile {
@@ -214,152 +216,153 @@ body {
 }
 
 .skill__two {
-    width: 49%;
-    padding: 0 17% 0 0;
-    background: no-repeat right 10% url(img/img\ 2.png);
-    margin-left: 34%;
-    margin-bottom: 50px;
-    text-align: right;
+  width: 49%;
+  padding: 0 17% 0 0;
+  background: no-repeat right 10% url(img/img\ 2.png);
+  margin-left: 34%;
+  margin-bottom: 50px;
+  text-align: right;
 }
 
 .two__title {
-    display: inline-block;
-    font: 600 30px/37px 'Montserrat', arial, helvetica, sans-serif;
-    color: #585858;
-    padding: 26px 0 8px 0;
-    margin: 0; 
+  display: inline-block;
+  font: 600 30px/37px 'Montserrat', arial, helvetica, sans-serif;
+  color: #585858;
+  white-space: pre;
+  padding: 26px 0 8px 0;
+  margin: 0; 
 }
 
 .two__subtitle {
-    font: 500 20px/24px 'Montserrat', arial, helvetica, sans-serif;
-    color: #585858;
-    display: block;
-    padding-bottom: 47px;
-    margin: 0;
+  font: 500 20px/24px 'Montserrat', arial, helvetica, sans-serif;
+  color: #585858;
+  display: block;
+  padding-bottom: 47px;
+  margin: 0;
 }
 
 .skill__three {
-    width: 49%;
-    padding: 0 0 0 17%;
-    background: no-repeat left 10% url(img/img\ 3.png);
+  width: 49%;
+  padding: 0 0 0 17%;
+  background: no-repeat left 10% url(img/img\ 3.png);
 }
 
 .three__title {
-    display: inline-block;
-    font: 600 30px/37px 'Montserrat', arial, helvetica, sans-serif;
-    color: #585858;
-    padding: 15px 0 8px 0;
-    margin: 0;
+  display: inline-block;
+  font: 600 30px/37px 'Montserrat', arial, helvetica, sans-serif;
+  color: #585858;
+  padding: 15px 0 8px 0;
+  margin: 0;
 }
 
 .three__subtitle {
-    font: 500 20px/24px 'Montserrat', arial, helvetica, sans-serif;
-    color: #585858;
-    display: block;
-    padding-bottom: 45px;
-    margin: 0;
+  font: 500 20px/24px 'Montserrat', arial, helvetica, sans-serif;
+  color: #585858;
+  display: block;
+  padding-bottom: 45px;
+  margin: 0;
 }
 
 .wrapper-form {
-    background: rgba(51, 0, 153, 0.12);
-    padding-bottom: 83px;
+  background: rgba(51, 0, 153, 0.12);
+  padding-bottom: 83px;
 }
 
 .main__form {
-    width: 26%;
-    margin: 0 auto;
+  width: 26%;
+  margin: 0 auto;
 }
 
 .form__title {
-    text-align: center;
-    font: 900 30px/36px 'Montserrat', arial, helvetica, sans-serif;
-    color: #585858;
-    padding: 57px 15px 211px 0;
-    background: no-repeat bottom right 54% url(img/img\ 4.png);
-    margin: 0;
+  text-align: center;
+  font: 900 30px/36px 'Montserrat', arial, helvetica, sans-serif;
+  color: #585858;
+  padding: 57px 15px 211px 0;
+  background: no-repeat bottom right 54% url(img/img\ 4.png);
+  margin: 0;
 }
 
 .form__img {
-    width: 175px;
-    height: 175px;;
+  width: 175px;
+  height: 175px;;
 }
 
 .form__subtitle {
-    font: 600 20px/24px 'Montserrat', arial, helvetica, sans-serif;
-    color: #585858;
-    text-align: center;
-    padding: 49px 0 38px 0;
-    margin: 0; 
+  font: 600 20px/24px 'Montserrat', arial, helvetica, sans-serif;
+  color: #585858;
+  text-align: center;
+  padding: 49px 0 38px 0;
+  margin: 0; 
 }
 
 form {
-    padding-left: 38px;
+  padding-left: 38px;
 }
 
 .form__one {
-    display: block;
-    border-radius: 50px;
-    font: 600 15px/18px 'Montserrat', arial, helvetica, sans-serif;
-    padding: 24px 45px 22px 39px;
-    margin-bottom: 26px;
-    border: none; 
+  display: block;
+  border-radius: 50px;
+  font: 600 15px/18px 'Montserrat', arial, helvetica, sans-serif;
+  padding: 24px 45px 22px 39px;
+  margin-bottom: 26px;
+  border: none; 
 }
 
 .form__two {
-    display: block;
-    border-radius: 50px;
-    font: 600 15px/18px 'Montserrat', arial, helvetica, sans-serif;
-    padding: 24px 45px 22px 39px;
-    margin-bottom: 26px;
-    border: none; 
+  display: block;
+  border-radius: 50px;
+  font: 600 15px/18px 'Montserrat', arial, helvetica, sans-serif;
+  padding: 24px 45px 22px 39px;
+  margin-bottom: 26px;
+  border: none; 
 }
 
 .form__three {
-    display: block;
-    border-radius: 50px;
-    font: 600 15px/18px 'Montserrat', arial, helvetica, sans-serif;
-    padding: 24px 45px 22px 39px;
-    margin-bottom: 63px;
-    border: none;
+  display: block;
+  border-radius: 50px;
+  font: 600 15px/18px 'Montserrat', arial, helvetica, sans-serif;
+  padding: 24px 45px 22px 39px;
+  margin-bottom: 63px;
+  border: none;
 }
 
 .form__btn {
-    text-decoration: none;
-    font: 900 20px/24px 'Montserrat', arial, helvetica, sans-serif;
-    padding: 23px 90px;
-    color: #fff;
-    background: #4ab272;
-    border-radius: 50px;
+  text-decoration: none;
+  font: 900 20px/24px 'Montserrat', arial, helvetica, sans-serif;
+  padding: 23px 90px;
+  color: #fff;
+  background: #4ab272;
+  border-radius: 50px;
 }
 
 .footer {
-    background: #309;
+  background: #309;
 }
 
 .footer__title {
-    font: 400 20px/23px 'Roboto', arial, helvetica, sans-serif;
-    color: #fff;
-    display: flex;
-    justify-content: center;
-    padding: 60px 0 21px 0;
-    margin: 0;
+  font: 400 20px/23px 'Roboto', arial, helvetica, sans-serif;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  padding: 60px 0 21px 0;
+  margin: 0;
 }
 
 .form-logo {
-    display: flex;
-    justify-content: space-between;
-    width: 26.5%;
-    margin: 0 auto;
-    margin-bottom: 76px;
+  display: flex;
+  justify-content: space-between;
+  width: 26.5%;
+  margin: 0 auto;
+  margin-bottom: 76px;
 }
 
 .footer__subtitle {
-    font: 400 20px/23px 'Roboto', arial, helvetica, sans-serif;
-    color: #fff;
-    display: flex;
-    justify-content: center;
-    padding-bottom: 60px;
-    margin-bottom: 0;
+  font: 400 20px/23px 'Roboto', arial, helvetica, sans-serif;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 60px;
+  margin-bottom: 0;
 }
 
 @media (max-width: 1310px) {
@@ -718,7 +721,7 @@ form {
   }
 
   .form__three {
-      margin-bottom: 12%;
+    margin-bottom: 12%;
   }
 
   .form__btn {
@@ -771,7 +774,7 @@ form {
 @media (max-width: 500px) {
 
   .menu__item {
-      padding: 3px 25px 0 0;
+    padding: 3px 25px 0 0;
   }
 
   form {
@@ -1247,7 +1250,8 @@ form {
   .logo__title {
     display: block;
     font: 900 20px/24px 'Montserrat', arial, helvetica, sans-serif;
-    padding: 25px 0 0 19%;
+    white-space: pre-wrap;
+    padding: 25px 0 0 21%;
     width: 70%;
     margin: 0;
   }
@@ -1255,7 +1259,7 @@ form {
   .logo__subtitle {
     display: block;
     width: 65%;
-    padding: 0 0 36vw 25%;
+    padding: 0 0 36vw 26%;
     font: 700 16px/20px 'Montserrat', arial, helvetica, sans-serif;
     text-align: right;
     color: #fff;
