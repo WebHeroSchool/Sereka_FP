@@ -386,6 +386,10 @@ form {
 }
 
 @media (max-width: 1150px) {
+  .logo {
+    height: 44vh;
+  }
+
   .logo__title {
     padding: 121px 0 0 51%;
     width: 45%;
@@ -447,7 +451,7 @@ form {
 
 @media (max-width: 875px) {
   .logo {
-    margin: 0 0 50px 0;
+    margin: 0;
   }
 
   .logo__title {
@@ -476,7 +480,9 @@ form {
 
 @media (max-width: 666px) {
   .logo {
+    height: auto;
     background: no-repeat url(img/logo.jpg);
+    background-size: cover;
     margin: 0;
   }
 
@@ -786,6 +792,7 @@ form {
 
   .logo {
     background: no-repeat url(img/logo.jpg);
+    background-size: cover;
     margin: 0;
   }
 
