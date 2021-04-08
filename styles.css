@@ -387,7 +387,8 @@ form {
 
 @media (max-width: 1150px) {
   .logo {
-    height: 44vh;
+    height: auto;
+    background-size: cover;
   }
 
   .logo__title {
