@@ -265,7 +265,7 @@ body {
 
 .wrapper-form {
   background: rgba(51, 0, 153, 0.12);
-  padding-bottom: 83px;
+  padding-bottom: 61px;
 }
 
 .main__form {
@@ -296,7 +296,10 @@ body {
 }
 
 form {
-  padding-left: 38px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
 }
 
 .form__one {
@@ -322,7 +325,7 @@ form {
   border-radius: 50px;
   font: 600 15px/18px 'Montserrat', arial, helvetica, sans-serif;
   padding: 24px 45px 22px 39px;
-  margin-bottom: 63px;
+  margin-bottom: 40px;
   border: none;
 }
 
@@ -344,7 +347,7 @@ form {
   color: #fff;
   display: flex;
   justify-content: center;
-  padding: 60px 0 21px 0;
+  padding: 59px 0 21px 0;
   margin: 0;
 }
 
@@ -426,6 +429,10 @@ form {
     padding: 185px 0 0 0;
     background: no-repeat center top url(img/img\ 3.png);
     margin: 0 auto;
+  }
+
+  .main__form {
+    width: 300px;
   }
 }
 
@@ -711,7 +718,7 @@ form {
 
   form {
     padding-left: 0;
-    width: 50%;
+    width: 270px;
     margin: 0 auto;
   }
 
@@ -781,8 +788,8 @@ form {
   }
 
   form {
-    padding-left: 20%;
-    margin: 0;
+    width: 270px;
+    margin: 0 auto;
   }
 }
 
@@ -1077,10 +1084,6 @@ form {
     margin-bottom: 7vw;
   }
 
-  form {
-    padding-left: 10%;
-  }
-
   .form__input {
     display: block;
     border-radius: 50px;
@@ -1357,6 +1360,7 @@ form {
 
   .main__form {
     background: no-repeat center top 16% url(img/img\ 4.png);
+    padding-bottom: 30px;
   }
 
   .form__title {
@@ -1370,7 +1374,7 @@ form {
   }
 
   form {
-    padding-left: 3%;
+    width: 256px;
   }
 
   .form__one {
@@ -1382,7 +1386,7 @@ form {
   }
 
   .form__three {
-    margin-bottom: 46px;
+    margin-bottom: 31px;
   }
 
   .footer__title {
